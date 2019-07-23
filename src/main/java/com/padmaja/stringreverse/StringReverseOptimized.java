@@ -4,12 +4,9 @@ import java.util.Scanner;
 import static java.lang.System.out;
 import java.lang.String;
 
-public class StringReverse {
+public class StringReverseOptimized {
     public static void main(String[] args){
-        System.out.println("Enter string to reverse:");
-
-        Scanner read = new Scanner(System.in);
-        String str = read.nextLine();
+        String str="Welcome to Java Programming";
 
         //creating object of String Util class
         stringUtil myStringUtilObject = new stringUtil();
